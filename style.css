@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    background-image: url(/Zuri-regform-task/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+/* Styling of main */
+main {
+    display: flex;
+    width: 80%;
+    height: 540px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* Styling of section 1 & 2 */
+.section1{
+    width: 55%;
+    height: 500px;
+}
+
+.section2{
+    width: 45%;
+    height: 500px;
+}
+
+.section1-container{
+    width: 100%;
+    color: white;
+    margin-top: 150px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section2-btn{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px rgb(0, 0, 0, 0.2);
+}
+.section2-btn, .section2-btn a, .section2-btn a b{
+    color: white;
+    background-image: linear-gradient(purple, purple);
+}
+
+.form-div, form, .input, #form-btn,
+#form-btn a, .container-login,
+.container-login p, .container-login a {
+    background-image: linear-gradient(white, white);
+}
+
+.section2-btn a b, .input,#form-btn a{
+    font-weight: 700;
+}
+
+/* Styling of form */
+.form-div{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    border:0.1px solid white;
+    box-shadow: 0px 8px rgb(0, 0, 0, 0.2);
+}
+
+form{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.input {
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    padding: 5px 0 5px 40px;
+    border: 0.5px solid grey;
+}
+.input:hover {
+    color:#000;
+    border: 0.5px solid #000;
+}
+
+#form-btn{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(hsl(154, 59%, 51%), hsl(154, 59%, 51%));
+    box-shadow: 0px 3px hsl(160, 59%, 51%, 0.6);
+}
+#form-btn a{
+    background-image: linear-gradient(hsl(154, 59%, 51%), hsl(154, 59%, 51%));
+    text-transform: uppercase;
+    color: white;
+}
+
+.container-login{
+    width: 90%;
+    margin: auto;
+}
+.container-login p{
+    color: grey;
+    font-size: 14px;
+}
+.container-login p a{
+    color: red;
+    font-size: 14px;
+}
+
+/* MEDIA QUERY for 375px*/ 
+@media screen and (max-width: 375px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+    .section1{
+        width: 100%;
+        margin: auto;
+        margin-top: -10px;
+    }
+    .section2{
+        width: 100%;
+        margin: auto;
+    }
+
+    .section1-container{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+
+    .section2-btn{
+        height: 100px;
+    }
+
+    .form-div{
+        margin-bottom: 50px;
+    }
+}
+
+
+/* MEDIA QUERY for 768px*/ 
+@media screen and (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+    .section1{
+        width: 100%;
+        margin: auto;
+        margin-top: -10px;
+    }
+    .section2{
+        width: 100%;
+        margin: auto;
+    }
+
+    .section1-container{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+
+    .section2-btn{
+        height: 100px;
+    }
+
+    .form-div{
+        margin-bottom: 50px;
+    }
+}
